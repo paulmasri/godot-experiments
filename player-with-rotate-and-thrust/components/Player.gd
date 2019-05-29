@@ -1,13 +1,15 @@
 extends RigidBody2D
 
 var screen_size
-var thrust = Vector2(0, -250)
-var torque = 1000
+var thrust = Vector2(0, -400)
+var torque = 4000
 
 func _ready():
 	screen_size = get_viewport_rect().size
 	position.x = screen_size.x / 2
 	position.y = screen_size.y / 2
+	linear_damp = 0.5
+	angular_damp = 4
 
 func _integrate_forces(state):
 	if (Input.is_action_pressed("ui_accept")):
