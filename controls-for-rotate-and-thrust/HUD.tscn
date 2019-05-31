@@ -70,4 +70,10 @@ margin_bottom = 54.0
 theme = ExtResource( 2 )
 text = "Thrust"
 [connection signal="value_changed" from="Rotate slider" to="." method="_on_Rotate_slider_value_changed"]
+[connection signal="button_down" from="Rotate slider/Rotate left button" to="." method="_on_Rotate_left_button_button_down"]
+[connection signal="button_up" from="Rotate slider/Rotate left button" to="." method="_on_Rotate_left_button_button_up"]
+[connection signal="button_down" from="Rotate slider/Rotate right button" to="." method="_on_Rotate_right_button_button_down"]
+[connection signal="button_up" from="Rotate slider/Rotate right button" to="." method="_on_Rotate_right_button_button_up"]
 [connection signal="value_changed" from="Thrust slider" to="." method="_on_Thrust_slider_value_changed"]
+[connection signal="button_down" from="Thrust slider/Thrust button" to="." method="_on_Thrust_button_button_down"]
+[connection signal="button_up" from="Thrust slider/Thrust button" to="." method="_on_Thrust_button_button_up"]
