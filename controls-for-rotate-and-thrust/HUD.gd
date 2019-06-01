@@ -2,6 +2,7 @@ extends CanvasLayer
 
 const MAX_THRUST = 20
 const MAX_TORQUE = 20
+const TOUCH_DEADZONE = 5
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -75,4 +76,7 @@ func _on_Rotate_right_button_button_up():
 
 func _on_TouchControl_dragged(position):
 	set_thrust(min(MAX_THRUST, max(0, -position.y)))
-	set_torque(min(MAX_TORQUE, max(-MAX_TORQUE, position.x)))
+	if position.x >= 0:
+		set_torque(min(MAX_TORQUE, max(0, position.x - TOUCH_DEADZONE)))
+	else:
+		set_torque(min(0, max(-MAX_TORQUE, position.x + TOUCH_DEADZONE)))
