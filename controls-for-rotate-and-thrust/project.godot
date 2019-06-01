@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Experiment: Controls for rotate and thrust"
+run/main_scene="res://HUD.tscn"
 config/icon="res://icon.png"
 
 [display]
