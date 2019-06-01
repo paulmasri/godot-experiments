@@ -71,3 +71,8 @@ func _on_Rotate_right_button_button_down():
 
 func _on_Rotate_right_button_button_up():
 	set_torque(0)
+
+
+func _on_TouchControl_dragged(position):
+	set_thrust(min(MAX_THRUST, max(0, -position.y)))
+	set_torque(min(MAX_TORQUE, max(-MAX_TORQUE, position.x)))
