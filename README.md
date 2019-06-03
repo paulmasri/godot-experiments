@@ -3,6 +3,7 @@
 ## The experiments (in created order)
 
 1. Player with rotate and thrust
+1. Controls for rotate and thrust
 
 ## To-do
 
