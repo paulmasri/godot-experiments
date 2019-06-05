@@ -18,8 +18,8 @@
 
 ### Tiled level
 
-- Graphical shapes
-- Manually create a tiled level
-- Play test with player
+- √ Graphical shapes
+- √ Manually create a tiled level
+- √ Play test with player
 - Encode level as JSON
 - Load level and render
