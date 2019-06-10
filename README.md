@@ -38,5 +38,5 @@
 		- How to scroll the viewport around the player
 	- To do next:
 		- Read and understand Best Practices https://docs.godotengine.org/en/3.1/getting_started/workflow/best_practices/index.html
-    - What global elements are needed: level, player & things, hub, onboarding/tutorial, pause screen, hud, etc. and how they should be organised in the tree
-		- [Watch Godot 3 Camera Tutorial - Camera2d and Grid Snapping by GdQuest](https://www.youtube.com/watch?v=lNNO-Gh5j78&vl=en)
+- What global elements are needed: level, player & things, hub, onboarding/tutorial, pause screen, hud, etc. and how they should be organised in the tree
+	- [Watch Godot 3 Camera Tutorial - Camera2d and Grid Snapping by GdQuest](https://www.youtube.com/watch?v=lNNO-Gh5j78&vl=en)
