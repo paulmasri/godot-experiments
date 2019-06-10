@@ -5,6 +5,7 @@
 1. Player with rotate and thrust
 1. Controls for rotate and thrust
 1. Tiled level
+1. Scroll level around player
 
 ## To-do
 
