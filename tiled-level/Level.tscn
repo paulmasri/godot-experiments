@@ -4,6 +4,7 @@
 [ext_resource path="res://components/Player.tscn" type="PackedScene" id=2]
 
 [node name="Level" type="Node2D"]
+position = Vector2( -1, 0 )
 
 [node name="Level-TileMap" parent="." instance=ExtResource( 1 )]
 

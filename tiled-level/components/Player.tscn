@@ -15,7 +15,10 @@ polygon = PoolVector2Array( 0.190933, -20.537, 14.6975, 19.9057, -14.7553, 19.90
 [node name="Pivot" type="Position2D" parent="."]
 
 [node name="CameraOffset" type="Position2D" parent="Pivot"]
-position = Vector2( 30, 0 )
+position = Vector2( 0, 100 )
 
 [node name="Camera2D" type="Camera2D" parent="Pivot/CameraOffset"]
+current = true
+smoothing_enabled = true
+smoothing_speed = 4.0
 editor_draw_drag_margin = true

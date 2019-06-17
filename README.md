@@ -17,13 +17,6 @@
 - Touch control
 - Testing on mobile
 
-### Tiled level
-
-- √ Graphical shapes
-- √ Manually create a tiled level
-- √ Play test with player
-- Scroll level around player
-
 
 ## To learn or work out
 
@@ -38,5 +31,10 @@
 		- How to handle procedural elements
 	- To do next:
 		- Read and understand Best Practices https://docs.godotengine.org/en/3.1/getting_started/workflow/best_practices/index.html
+
+## Learnings
+
+### Tiled level
+
 - How to scroll the viewport around the player
 	- [Watch Godot 3 Camera Tutorial - Camera2d and Grid Snapping by GdQuest](https://www.youtube.com/watch?v=lNNO-Gh5j78&vl=en)
