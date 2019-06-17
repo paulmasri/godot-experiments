@@ -5,7 +5,7 @@
 1. Player with rotate and thrust
 1. Controls for rotate and thrust
 1. Tiled level
-1. Scroll level around player
+1. Switch between levels and hub
 
 ## To-do
 
@@ -22,8 +22,8 @@
 - √ Graphical shapes
 - √ Manually create a tiled level
 - √ Play test with player
-- Encode level as JSON
-- Load level and render
+- Scroll level around player
+
 
 ## To learn or work out
 
