@@ -11,3 +11,11 @@ texture = ExtResource( 2 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 polygon = PoolVector2Array( 0.190933, -20.537, 14.6975, 19.9057, -14.7553, 19.9057 )
+
+[node name="Pivot" type="Position2D" parent="."]
+
+[node name="CameraOffset" type="Position2D" parent="Pivot"]
+position = Vector2( 30, 0 )
+
+[node name="Camera2D" type="Camera2D" parent="Pivot/CameraOffset"]
+editor_draw_drag_margin = true
