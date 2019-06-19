@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Switch between levels and hub"
+config/name="Experiment: Switch between levels and hub"
 config/icon="res://icon.png"
 
 [display]
