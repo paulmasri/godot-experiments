@@ -17,6 +17,13 @@
 - Touch control
 - Testing on mobile
 
+### Switch between levels and hub
+
+- Create hub scene (buttons to select levels)
+- Create level scenes
+- Switch between scenes
+- Add player
+
 
 ## To learn or work out
 
@@ -30,7 +37,8 @@
 			- See https://www.reddit.com/r/godot/comments/9ewnmu/card_storage_resources/
 		- How to handle procedural elements
 	- To do next:
-		- Read and understand Best Practices https://docs.godotengine.org/en/3.1/getting_started/workflow/best_practices/index.html
+		- Read and understand [Best Practices](https://docs.godotengine.org/en/3.1/getting_started/workflow/best_practices/index.html)
+		- Read [Change scenes manually](https://docs.godotengine.org/en/3.1/tutorials/misc/change_scenes_manually.html)
 
 ## Learnings
 
