@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Experiment: Switch between levels and hub"
+run/main_scene="res://fonts/Main.tscn"
 config/icon="res://icon.png"
 
 [display]
