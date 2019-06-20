@@ -27,6 +27,7 @@
 
 ## To learn or work out
 
+- Watch MisterTaftCreates Part 17
 - How to organise the structure of the game
 	- Questions:
 		- What global elements are needed: level, player & things, hub, onboarding/tutorial, pause screen, hud, etc. and how they should be organised in the tree
@@ -46,3 +47,13 @@
 
 - How to scroll the viewport around the player
 	- [Watch Godot 3 Camera Tutorial - Camera2d and Grid Snapping by GdQuest](https://www.youtube.com/watch?v=lNNO-Gh5j78&vl=en)
+
+### Notes on MisterTaftCreates Godot Match 3 series
+
+https://www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2
+
+- [Project windows settings](https://www.youtube.com/watch?v=RO5pXiN6UnI&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=2) 9:51 - 11:11
+- [Project input map](https://www.youtube.com/watch?v=RO5pXiN6UnI&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=2) 11:11 - 11:51
+- [Using timers](https://www.youtube.com/watch?v=2P3jei-alpQ&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=12)
+- [Simple state machine, with timers](https://www.youtube.com/watch?v=cSidNEyfdM8&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=16)
+
