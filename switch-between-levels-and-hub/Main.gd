@@ -5,3 +5,4 @@ func _ready():
 
 func _on_Hub_level_selected(scene):
 	print("changing to scene: ", scene)
+	get_tree().change_scene(scene)
