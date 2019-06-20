@@ -31,3 +31,5 @@ margin_right = 20.0
 margin_bottom = 0.0
 level = 2
 level_scene = "res://levels/LevelB.tscn"
+[connection signal="level_selected" from="CanvasLayer/CenterContainer/HBoxContainer/LevelSelectButton1" to="." method="_on_LevelSelectButton1_level_selected"]
+[connection signal="level_selected" from="CanvasLayer/CenterContainer/HBoxContainer/LevelSelectButton2" to="." method="_on_LevelSelectButton2_level_selected"]

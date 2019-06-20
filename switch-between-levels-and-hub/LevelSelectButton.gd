@@ -10,7 +10,7 @@ func _ready():
 
 
 func setup():
-	$CenterContainer/Button.text = String(level)
+	$Button.text = String(level)
 
 
 func _on_Button_pressed():

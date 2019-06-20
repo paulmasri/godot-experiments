@@ -3,8 +3,8 @@
 [ext_resource path="res://Main.gd" type="Script" id=1]
 [ext_resource path="res://Hub.tscn" type="PackedScene" id=2]
 
-
 [node name="Main" type="Node"]
 script = ExtResource( 1 )
 
 [node name="Hub" parent="." instance=ExtResource( 2 )]
+[connection signal="level_selected" from="Hub" to="." method="_on_Hub_level_selected"]
