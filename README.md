@@ -56,4 +56,4 @@ https://www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2
 - [Project input map](https://www.youtube.com/watch?v=RO5pXiN6UnI&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=2) 11:11 - 11:51
 - [Using timers](https://www.youtube.com/watch?v=2P3jei-alpQ&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=12)
 - [Simple state machine, with timers](https://www.youtube.com/watch?v=cSidNEyfdM8&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=16)
-
+- [export PoolVector2 and signals between siblings](https://www.youtube.com/watch?v=ThINCQcEOYs&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=19)
