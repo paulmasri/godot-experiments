@@ -43,10 +43,11 @@
 
 ## Learnings
 
-### Tiled level
+### Notes on GDQuest tutorial videos
 
 - How to scroll the viewport around the player
-	- [Watch Godot 3 Camera Tutorial - Camera2d and Grid Snapping by GdQuest](https://www.youtube.com/watch?v=lNNO-Gh5j78&vl=en)
+	- [Watch Godot 3 Camera Tutorial - Camera2d and Grid Snapping](https://www.youtube.com/watch?v=lNNO-Gh5j78&vl=en)
+- [Project organisation and tips](https://www.youtube.com/watch?v=fpUchzKtDbQ)
 
 ### Notes on MisterTaftCreates Godot Match 3 series
 
@@ -57,3 +58,16 @@ https://www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2
 - [Using timers](https://www.youtube.com/watch?v=2P3jei-alpQ&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=12)
 - [Simple state machine, with timers](https://www.youtube.com/watch?v=cSidNEyfdM8&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=16)
 - [export PoolVector2 and signals between siblings](https://www.youtube.com/watch?v=ThINCQcEOYs&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=19)
+- [Why Sprite should not be a scene root node](https://www.youtube.com/watch?v=ThINCQcEOYs&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=19) 17:04
+- [Score UI and signals across siblings](https://www.youtube.com/watch?v=wfB_1BArSXs&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=31)
+- [App UI and prep for scene transitions](https://www.youtube.com/watch?v=tIveB4JRZCo&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=35) 9:20
+- [Scene transition animations](https://www.youtube.com/watch?v=FV3gujpHf7I&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=36) (Also script inheritance at 6:45)
+- [Particle FX](https://www.youtube.com/watch?v=j26_9O6Hg1g&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=37)
+- [Animated FX](https://www.youtube.com/watch?v=KQjBdK3Isog&list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2&index=38)
+
+### Notes on other YouTube tutorials
+
+#### Stein Codes
+
+- [Using shaders to create wipe effects](https://www.youtube.com/watch?v=9-zBvE4AYNU)
+    - See comments with refined code to avoid expensive computation
